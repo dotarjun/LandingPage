@@ -47,6 +47,7 @@ nav {
   justify-content: space-between;
   margin: 0.5vw 5vw;
   align-items: center;
+  padding-bottom: 4vw;
 }
 .top-txt h1 {
   font-size: 10vw;
@@ -75,7 +76,7 @@ nav {
   color: #e5e7eb;
   font-weight: 900;
   font-size: 1.25rem;
-  border: 0;
+  border: 0;- Thor God of Thund
   flex: 0 0 auto;
 }
 
@@ -125,7 +126,7 @@ nav h3 {
 .toggle-button {
   position: absolute;
   top: 8vw;
-  right: 1rem;
+  right: 5vw;
   display: none;
   flex-direction: column;
   justify-content: space-between;
@@ -140,15 +141,20 @@ nav h3 {
   border-radius: 0.5rem;
 }
 
-h2 {
+.mid-content h2 {
   text-align: center;
   font-size: 2.3rem;
   font-weight: 900;
   color: #1f2937;
+  margin: 3vw 0;
 }
 .mid-content {
   padding-inline: 5vw;
+  background-color: white;
+  padding-block: 0.5vw;
+  padding-bottom: 5vw;
 }
+
 .gallery {
   display: flex;
   justify-content: space-between;
@@ -156,10 +162,10 @@ h2 {
 
 .gallery p {
   font-size: 5vw;
-  /* color: #e5e7eb; */
   margin: 0;
   margin: 0.5rem 0;
-  font-weight: 300;
+  /* font-weight: 300; */
+  color: #1f2937;
 }
 
 .gallery img {
@@ -170,6 +176,25 @@ h2 {
 
 .img-w-desc {
   padding-inline: 11rem;
+}
+
+.quote {
+  padding-inline: 5vw;
+  background-color: var(--quote-bg-color);
+  padding-block: 10vw;
+}
+
+.quote p {
+  font-size: 5vw;
+  font-style: italic;
+  font-weight: 300;
+  /* letter-spacing: 0.1rem; */
+  line-height: 1.3;
+  color: #1f2937;
+}
+.quote h4 {
+  font-size: 4vw;
+  text-align: right;
 }
 
 @media (max-width: 700px) {
