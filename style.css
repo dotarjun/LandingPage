@@ -16,7 +16,7 @@ body {
 
 .head-content {
   display: flex;
-  padding: 5rem;
+  padding: 3vw;
   padding-inline: calc(100vw / 160);
   justify-content: space-between;
   flex-direction: column-reverse;
@@ -81,7 +81,7 @@ nav {
 
 nav h3 {
   /* margin-left: 1rem; */
-  font-size: 2rem;
+  font-size: 7vw;
   font-weight: 900;
   color: #f9faf8;
 }
@@ -111,7 +111,7 @@ nav h3 {
 } */
 
 .nav-links li a {
-  color: purple;
+  color: #e5e7eb;
   text-decoration: none;
   display: block;
   padding-inline: 0.5rem;
@@ -119,11 +119,12 @@ nav h3 {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   letter-spacing: 1px;
+  font-size: 5vw;
 }
 
 .toggle-button {
   position: absolute;
-  top: 1.6rem;
+  top: 8vw;
   right: 1rem;
   display: none;
   flex-direction: column;
@@ -146,15 +147,25 @@ h2 {
   color: #1f2937;
 }
 .mid-content {
-  padding-inline: 10rem;
+  padding-inline: 5vw;
 }
 .gallery {
   display: flex;
   justify-content: space-between;
 }
 
+.gallery p {
+  font-size: 5vw;
+  /* color: #e5e7eb; */
+  margin: 0;
+  margin: 0.5rem 0;
+  font-weight: 300;
+}
+
 .gallery img {
   aspect-ratio: 1/1;
+  width: 15vw;
+  border-radius: 0.25rem;
 }
 
 .img-w-desc {
@@ -185,5 +196,25 @@ h2 {
   }
   .nav-links.active {
     display: flex;
+  }
+  .nav-links.active {
+    display: flex;
+    position: absolute;
+    margin-top: 15vw;
+    background-color: var(--dark-bg-color);
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .gallery {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .gallery img {
+    width: 100%;
+    margin: 0 auto;
   }
 }
