@@ -131,15 +131,19 @@ img {
 .top-txt button {
   background-color: var(--highlight-bg-color);
   padding-inline: 2rem;
-  padding-block: 0.5rem;
-  margin-right: auto;
+  /* padding-block: 0.5rem; */
+  margin-right: 0;
   margin-top: 0.5rem;
   border-radius: 0.75rem;
   color: #e5e7eb;
   font-weight: 900;
-  font-size: 1.25rem;
+  /* font-size: 2.5vw; */
   border: 0;
   flex: 0 0 auto;
+  width: 100%;
+
+  padding-block: 1vw;
+  font-size: 5vw;
 }
 
 /*---------- Mid content 👇 ----------*/
@@ -275,7 +279,35 @@ img {
   .nav-links.active {
     display: none;
   }
-  
+  #head-img {
+    width: 40vw;
+  }
+  .head-content {
+    padding-inline: 5vw;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .top-txt h1 {
+    font-size: 4vw;
+    margin: 0;
+    width: 100%;
+  }
+
+  .top-txt p {
+    font-size: 2vw;
+  }
+
+  .top-txt {
+    margin: 0;
+    padding-right: 5vw;
+  }
+
+  .top-txt button {
+    font-size: 2.5vw;
+    padding-block: 0.5rem;
+  }
+
   .gallery {
     flex-direction: column;
     justify-content: center;
