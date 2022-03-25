@@ -199,7 +199,6 @@ img {
   font-size: 5vw;
   font-style: italic;
   font-weight: 300;
-  /* letter-spacing: 0.1rem; */
   line-height: 1.3;
   color: #1f2937;
 }
@@ -323,5 +322,16 @@ img {
   .gallery p {
     font-size: 2vw;
     width: 20vw;
+  }
+  /*---------- Quote 👇 ----------*/
+  .quote {
+    padding-block: 3vw;
+  }
+  .quote h4 {
+    font-size: 3vw;
+  }
+  .quote p {
+    font-size: 2.5vw;
+    padding-right: 20vw;
   }
 }
