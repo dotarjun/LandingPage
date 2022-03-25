@@ -256,26 +256,6 @@ img {
   color: #1f2937;
   font-size: 4vw;
 }
-/*---------- Copyright 👇 ----------*/
-.end {
-  width: 100%;
-  background-color: #1f2937;
-  height: 7.5vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  flex-direction: column;
-  padding-block: 1vw;
-}
-
-.end p {
-  margin: 0.4rem 0;
-}
-
-.end a {
-  color: #3882f6;
-}
 
 @media (min-width: 750px) {
   /*---------- Navbar 👇 ----------*/
