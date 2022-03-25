@@ -14,6 +14,19 @@ body {
   background-color: var(--dark-bg-color);
 }
 
+.plug {
+  display: flex;
+  justify-content: center;
+}
+
+.plug p {
+  margin-top: 2px;
+}
+.plug a {
+  color: #3882f6;
+  text-decoration-line: none;
+  margin-left: 0.25rem;
+}
 /*---------- Navbar 👇 ----------*/
 
 .navbar {
@@ -23,10 +36,11 @@ body {
   padding-inline: 5vw;
 }
 
-nav h3 {
+.navbar h3 {
   font-size: 7vw;
   font-weight: 900;
   color: #f9faf8;
+  margin-block: 0rem;
 }
 
 .nav-links {
@@ -243,7 +257,7 @@ img {
   font-size: 4vw;
 }
 /*---------- Copyright 👇 ----------*/
-.copyright {
+.end {
   width: 100%;
   background-color: #1f2937;
   height: 7.5vw;
@@ -251,9 +265,15 @@ img {
   align-items: center;
   justify-content: center;
   color: white;
+  flex-direction: column;
+  padding-block: 1vw;
 }
 
-.copyright a {
+.end p {
+  margin: 0.4rem 0;
+}
+
+.end a {
   color: #3882f6;
 }
 
@@ -288,7 +308,7 @@ img {
 
   .nav-links li a {
     padding-inline: 0.5rem;
-    padding-block: 2rem;
+    padding-block: 1rem;
     font-size: 3vw;
   }
 
