@@ -242,6 +242,20 @@ img {
   color: #1f2937;
   font-size: 4vw;
 }
+/*---------- Copyright 👇 ----------*/
+.copyright {
+  width: 100%;
+  background-color: #1f2937;
+  height: 7.5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.copyright a {
+  color: #3882f6;
+}
 
 @media (min-width: 750px) {
   /*---------- Navbar 👇 ----------*/
