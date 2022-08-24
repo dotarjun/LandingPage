@@ -4,6 +4,11 @@
   --dark-bg-color: #1f2937;
   --quote-bg-color: #e5e7eb;
   --highlight-bg-color: #3882f6;
+  --fs-xl: 5rem;
+  --fs-l: 3rem;
+  --fs-600: 1.5rem;
+  --fs-500: 1.25rem;
+  --fs-400: 1rem;
 }
 
 body {
