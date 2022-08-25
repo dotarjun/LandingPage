@@ -26,6 +26,7 @@ body {
 
 .plug p {
   margin-top: 2px;
+  color: var(--quote-bg-color);
 }
 .plug a {
   color: #3882f6;
@@ -41,7 +42,7 @@ body {
   padding-inline: 5vw;
 }
 
-.navbar h3 {
+.navbar h2 {
   font-weight: 900;
   color: #f9faf8;
   margin-block: 0rem;
@@ -142,6 +143,10 @@ img {
   margin: 0.5rem 0;
   font-weight: 300;
 }
+
+/* .top-txt b {
+  color: var(--highlight-bg-color);
+} */
 
 .top-txt button {
   background-color: var(--highlight-bg-color);
