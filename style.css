@@ -40,7 +40,6 @@ body {
   align-items: flex-start;
   padding-inline: 5vw;
   justify-content: space-between;
-
 }
 
 .navbar h2 {
@@ -108,7 +107,6 @@ body {
 
 .head-content {
   display: flex;
-  padding: 3vw;
   padding-inline: calc(100vw / 160);
   justify-content: space-between;
   flex-direction: column-reverse;
@@ -120,7 +118,7 @@ body {
   height: 100%;
   flex: 1 1 auto;
   border-radius: 1vw;
-  margin-top: 1rem;
+  margin-block: 1rem;
 }
 
 img {
@@ -131,16 +129,16 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 0.5vw 5vw;
   align-items: center;
-  padding-bottom: 4vw;
+  margin: 0.5rem 1.25rem;
 }
 
 .top-txt h1 {
   color: #f9faf8;
   margin: 0;
-  margin-top: 1rem;
   font-weight: 900;
+  margin-block: 0.25rem;
+  text-align: center;
 }
 
 .top-txt p {
@@ -148,6 +146,7 @@ img {
   margin: 0;
   margin: 0.5rem 0;
   font-weight: 300;
+  line-height: 1.5;
 }
 
 /* .top-txt b {
@@ -156,19 +155,14 @@ img {
 
 .top-txt button {
   background-color: var(--highlight-bg-color);
-  padding-inline: 2rem;
-  /* padding-block: 0.5rem; */
-  margin-right: 0;
-  margin-top: 0.5rem;
-  border-radius: 0.75rem;
   color: #e5e7eb;
   font-weight: 900;
-  /* : 2.5vw; */
   border: 0;
-  flex: 0 0 auto;
   width: 100%;
-
-  padding-block: 1vw;
+  margin-block: 1rem;
+  border-radius: 1rem;
+  padding-block: 0.75rem;
+  margin-bottom: 1.5rem;
 }
 
 /*---------- Mid content 👇 ----------*/
