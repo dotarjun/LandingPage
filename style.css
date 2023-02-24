@@ -11,8 +11,10 @@
   --fs-400: 1rem;
 }
 
+html,
 body {
   font-family: "Roboto";
+  min-height: 100vh;
 }
 
 .dark-bg {
@@ -134,7 +136,7 @@ img {
   margin: 0.5rem 1.25rem;
 }
 
-.top-txt h1 {
+.top-txt h2 {
   color: #f9faf8;
   margin: 0;
   font-weight: 900;
@@ -306,12 +308,13 @@ img {
     align-items: flex-start;
   }
 
-  .top-txt h1 {
+  .top-txt h2 {
     margin: 0;
     width: 100%;
   }
 
   .top-txt p {
+    font-size: min(1.8vw, 1.2rem);
   }
 
   .top-txt {
@@ -326,7 +329,9 @@ img {
   .gallery {
     flex-direction: row;
     justify-content: space-between;
+    align-items: flex-start;
   }
+
   .gallery img {
     width: 17.5vw;
   }
@@ -344,11 +349,8 @@ img {
   }
   /*---------- Highlight 👇 ----------*/
   .highlight {
-    width: 90vw;
     justify-content: center;
     margin-inline: auto;
-    border-radius: 1rem;
-    margin-block: 5vw;
   }
   .highlight-wrap {
     display: flex;
