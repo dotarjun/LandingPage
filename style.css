@@ -327,7 +327,9 @@ img {
   .gallery {
     flex-direction: row;
     justify-content: space-between;
+    align-items: flex-start;
   }
+
   .gallery img {
     width: 17.5vw;
   }
