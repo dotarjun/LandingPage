@@ -134,7 +134,7 @@ img {
   margin: 0.5rem 1.25rem;
 }
 
-.top-txt h1 {
+.top-txt h2 {
   color: #f9faf8;
   margin: 0;
   font-weight: 900;
@@ -306,12 +306,13 @@ img {
     align-items: flex-start;
   }
 
-  .top-txt h1 {
+  .top-txt h2 {
     margin: 0;
     width: 100%;
   }
 
   .top-txt p {
+    font-size: min(1.8vw, 1.2rem);
   }
 
   .top-txt {
