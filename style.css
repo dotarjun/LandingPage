@@ -11,8 +11,10 @@
   --fs-400: 1rem;
 }
 
+html,
 body {
   font-family: "Roboto";
+  min-height: 100vh;
 }
 
 .dark-bg {
@@ -50,7 +52,6 @@ body {
 
 .nav-links {
   display: none;
-  margin: 0 auto;
 }
 
 .nav-links ul {
@@ -82,7 +83,7 @@ body {
   display: flex;
   position: relative;
   top: 2rem;
-  right: 23vw;
+  right: calc(50% - 10vw);
 }
 
 .toggle-button {
@@ -119,6 +120,8 @@ body {
   flex: 1 1 auto;
   border-radius: 1vw;
   margin-block: 1rem;
+  margin-top: 2rem;
+  /* margin-top: 3rem; */
 }
 
 img {
@@ -133,12 +136,13 @@ img {
   margin: 0.5rem 1.25rem;
 }
 
-.top-txt h1 {
+.top-txt h2 {
   color: #f9faf8;
   margin: 0;
   font-weight: 900;
   margin-block: 0.25rem;
   text-align: center;
+  margin-bottom: 1rem;
 }
 
 .top-txt p {
@@ -148,10 +152,6 @@ img {
   font-weight: 300;
   line-height: 1.5;
 }
-
-/* .top-txt b {
-  color: var(--highlight-bg-color);
-} */
 
 .top-txt button {
   background-color: var(--highlight-bg-color);
@@ -177,7 +177,7 @@ img {
   text-align: center;
   font-weight: 900;
   color: #1f2937;
-  margin: 3vw 0;
+  margin: 1rem 0;
 }
 
 .gallery {
@@ -187,21 +187,26 @@ img {
   flex-direction: column;
 }
 
-.gallery p {
+.product-card {
+  margin-bottom: 2rem;
+}
+
+.product-card h4 {
   margin: 0;
   margin: 0.5rem 0;
   color: #1f2937;
 }
 
-.gallery img {
+.product-card p {
+  font-weight: 300;
+  margin: 0;
+}
+
+.product-card img {
   aspect-ratio: 1/1;
   border-radius: 0.25rem;
   width: 100%;
   margin: 0 auto;
-}
-
-.img-w-desc {
-  padding-inline: 11rem;
 }
 
 /*---------- Quote section 👇 ----------*/
@@ -292,6 +297,7 @@ img {
     display: none;
   }
   #head-img {
+    margin-top: 0;
     width: 40vw;
   }
 
@@ -302,12 +308,13 @@ img {
     align-items: flex-start;
   }
 
-  .top-txt h1 {
+  .top-txt h2 {
     margin: 0;
     width: 100%;
   }
 
   .top-txt p {
+    font-size: min(1.8vw, 1.2rem);
   }
 
   .top-txt {
@@ -322,7 +329,9 @@ img {
   .gallery {
     flex-direction: row;
     justify-content: space-between;
+    align-items: flex-start;
   }
+
   .gallery img {
     width: 17.5vw;
   }
@@ -340,11 +349,8 @@ img {
   }
   /*---------- Highlight 👇 ----------*/
   .highlight {
-    width: 90vw;
     justify-content: center;
     margin-inline: auto;
-    border-radius: 1rem;
-    margin-block: 5vw;
   }
   .highlight-wrap {
     display: flex;
