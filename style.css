@@ -11,8 +11,10 @@
   --fs-400: 1rem;
 }
 
+html,
 body {
   font-family: "Roboto";
+  min-height: 100vh;
 }
 
 .dark-bg {
@@ -347,11 +349,8 @@ img {
   }
   /*---------- Highlight 👇 ----------*/
   .highlight {
-    width: 90vw;
     justify-content: center;
     margin-inline: auto;
-    border-radius: 1rem;
-    margin-block: 5vw;
   }
   .highlight-wrap {
     display: flex;
